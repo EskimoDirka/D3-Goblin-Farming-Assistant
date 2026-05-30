@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.log
+*.log.*
+DebugFrames/
+_video_review/
+.venv/
+venv/
+*.mp4
+*.DVR.mp4
+*.lnk

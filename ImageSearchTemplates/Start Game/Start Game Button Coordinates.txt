@@ -1,0 +1,5 @@
+======= Battle Net Play Button Coordinates ==========
+159, 1284
+
+======== Diablo Start Game Button Coordinates ==========
+325, 689

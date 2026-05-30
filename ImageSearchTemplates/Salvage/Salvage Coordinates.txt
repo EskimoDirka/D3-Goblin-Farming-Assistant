@@ -1,0 +1,11 @@
+========== Salvage Tab ===========
+683, 638
+
+========== Salvage Button ==========
+215, 382
+
+========== Stash Coordinates ==========
+287, 471
+
+========== GG Stash Tab Coordinates ==========
+680, 701

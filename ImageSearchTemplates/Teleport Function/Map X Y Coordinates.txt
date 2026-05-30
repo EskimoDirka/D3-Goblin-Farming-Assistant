@@ -1,0 +1,29 @@
+========== World Map Act Locations =============
+Act 1 - 983, 826
+Act 2 - 1451, 692
+Act 3 - 943, 521
+Act 5 - 779, 729
+
+========== Act 1 Locations ==========
+New Tristram - 1356, 643
+Southern Highlands - 1083, 1058
+Northern Highlands - 1008, 876
+The Weeping Hollow - 919, 639
+The Festering Woods - 1051, 277
+Cathedral - 1465, 386
+Royal Crypts - 1758, 747
+
+========== Act 2 Locations ==========
+City Of Caldeum - 1139, 883
+Ancient Waterway - 622, 397
+Stinging Winds - 1524, 486
+Hidden Camp - 1379, 1042
+
+========== Act 3 Locations ==========
+Battlefields - 840, 436
+The Bridge of Korsikk - 1072, 612
+Rakkis Crossing - 1169, 412
+
+========== Act 5 ============
+Pandemonium Fortress Level 1 - 1059, 435
+Pandemonium Fortress Level 2 - 1402, 226

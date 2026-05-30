@@ -1,0 +1,2 @@
+======== Leave Game Button Coordinates =========
+326, 639
