@@ -58,7 +58,7 @@ py -3 GoblinFarming.py
 - It has 3 different combat loops depending on which character you're using to farm. Monk, Demon Hunter, and Witch Doctor. All skills and skill placements on the action bar are listed below if you want an out-of-the-box experience for farming. It will automatically cast skills and for the Witch Doctor, it will scan if your Hex needs to be cast and auto cast so no need for any timers. It will also stop chicken mode to allow for clean teleports
 - It also automatically scans which character you're using and uses that combat function so no need to change anything when swapping characters
 - The hotkey by default for combat is the tilde key "`". For the Xbox 360 S controller, its the left trigger.
-- The Up arrow spams right mouse click (Intended for quick Kadala purchasing) & alt + ` will spam left mouse click (intended for fast looting items off the ground)
+- The Up arrow spams right mouse click (intended for quick Kadala purchasing) & alt + ` will spam left mouse click (intended for fast looting items off the ground)
 
 
 ## Monk Skills, Runes, and Placement
