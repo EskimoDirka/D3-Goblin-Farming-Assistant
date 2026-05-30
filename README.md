@@ -11,6 +11,7 @@ Windows overlay automation for a Diablo III goblin-farming route.
 - Optional journal OCR helper in `Tools/GoblinFarmingJournalOcr.ps1`.
 - Auto menu close for bounties and the Enchantress follower menu if you're farming and somone joins your game. The only other follower I use to farm is the Templar for my Demon Hunter but haven't had a chance to incorporate his auto close menu
 - Will start Battlenet launcher, click play for Diablo III (I only have Diablo III for Battlenet launcher so you may need to adjust this if you have other games installed), then create a new game. Once your character has loaded into the game, it will automatically teleport you to Southern Highlands.
+- Will auto click on doors while combat is active and there are click-safe regions on the screen to ensure smooth farming
 
 ## Requirements
 
