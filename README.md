@@ -44,7 +44,7 @@ py -3 GoblinFarming.py
 
 - Template images and coordinates are user-calibrated. If your resolution/UI differs, update the relevant images and coordinate text files under `ImageSearchTemplates`.
 - This app was built for a dual-monitor setup. If you only use one monitor, adjust the overlay position before relying on the default placement.
-- Screen coordinates were calibrated for the original Diablo III window size and resolution, so different window sizes, UI scales, or resolutions may require recalibration.
+- This application was developed and tested on a 27-inch monitor at 2560×1440 (QHD / 1440p) resolution, with Windows display scaling set to 100% and Diablo III running in Windowed Fullscreen mode. Users running 1920×1080, ultrawide resolutions (3440×1440), 4K (3840×2160), non-100% display scaling, or different UI scale settings may need to recalibrate screen coordinates and update image templates for reliable operation.
 - Runtime state such as overlay position, controller tuning, and route progress is stored in the user's temp directory.
 - The close-follower-menu combat helper is calibrated for the Enchantress follower menu only.
 - No gameplay account data is required by this app.
