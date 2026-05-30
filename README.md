@@ -9,7 +9,7 @@ Windows overlay automation for a Diablo III goblin-farming route.
 - Xbox/XInput controller support with live speed/response tuning.
 - Shared combat menu watcher for Monk, Witch Doctor, and Demon Hunter combat loops.
 - Optional journal OCR helper in `Tools/GoblinFarmingJournalOcr.ps1`.
-- Auto menu close for bounties and the Enchantress follower if you're farming and somone joins your game. The only other follower I use to farm is the Templar for my Demon Hunter but haven't had a chance to incorporate his auto close menu
+- Auto menu close for bounties and the Enchantress follower menu if you're farming and somone joins your game. The only other follower I use to farm is the Templar for my Demon Hunter but haven't had a chance to incorporate his auto close menu
 
 ## Requirements
 
