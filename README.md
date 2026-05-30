@@ -9,6 +9,7 @@ Windows overlay automation for a Diablo III goblin-farming route.
 - Xbox/XInput controller support with live speed/response tuning.
 - Shared combat menu watcher for Monk, Witch Doctor, and Demon Hunter combat loops.
 - Optional journal OCR helper in `Tools/GoblinFarmingJournalOcr.ps1`.
+- Auto menu close for bounties and the Enchantress follower if you're farming and somone joins your game. The only other follower I use to farm is the Templar for my Demon Hunter but haven't had a chance to incorporate his auto close menu
 
 ## Requirements
 
@@ -48,3 +49,26 @@ py -3 GoblinFarming.py
 - Runtime state such as overlay position, controller tuning, and route progress is stored in the user's temp directory.
 - The close-follower-menu combat helper is calibrated for the Enchantress follower menu only.
 - No gameplay account data is required by this app.
+- Number 1 is used to teleport to the next location with logic failsafes in place. For the Xbox 360 S controller use the right trigger to teleport. When you get to the end of the farming route, and you use the hotkey to teleport to the "next" location it will automatically run the MakeNewGame() which will teleport you to New Tristram, repair/salvage, leave game, create a new game, then teleport you to Southern Highlands after you've loaded into the game.
+- Number 2 is used to run the Exit Game function which does auto repair/salvage and also stashes any Gibbering Gemstones from your inventory to your stash. There will be a confirmation window to ensure exiting of Diablo. These will need to be adjusted depending on where you store these or comment it out
+- It has 3 different combat loops depending on which character you're using to farm. Monk, Demon Hunter, and Witch Doctor. All skills and skill placements on the action bar are listed below if you want an out-of-the-box experience for farming. It will automatically cast skills and for the Witch Doctor, it will scan if your Hex needs to be cast and auto cast so no need for any timers. It will also stop chicken mode to allow for clean teleports
+- The hotkey by default for combat is the tilde key "`". For the Xbox 360 S controller, its the left trigger.
+
+## Monk Skills, Runes, and Placement
+
+- Number 1 - Epiphany / Insight
+- Number 2 - Mystic Ally / Air Ally
+- Number 3 - Dashing Strike / Radiance
+
+## Demon Hunter Skills, Runes, and Placement
+
+- Number 1 - Preperation / Focused Mind
+- Number 2 - Companion / Bat Companion
+- Number 3 - Vengence / Seethe
+- Number 4 - Smoke Screen / Displacement
+
+## Witch Doctor Skills, Runes, and Placement
+
+- Number 1 - Hex / Angry Chicken
+- Number 2 - Horrify / Stalker
+- Number 3 - Spirit Walk / Severance
